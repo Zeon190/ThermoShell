@@ -3,7 +3,7 @@
  * Seamless communication with FastAPI backend
  */
 const API_BASE =
-  'https://thermoshell-uap9-git-main-ace-3a40.vercel.app/';
+  'https://thermoshell-6i5l.vercel.app/';
 export async function fetchMaterialsCatalog() {
   try {
     const res = await fetch(`${API_BASE}/materials`);

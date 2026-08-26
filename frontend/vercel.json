@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://thermoshell-uap9-jiblrtkdh-ace-3a40.vercel.app/api/:path*"
+    }
+  ]
+}

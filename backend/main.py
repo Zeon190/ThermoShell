@@ -37,7 +37,7 @@ app.add_middleware(
         "https://thermoshell-6i51.vercel.app"
     ],
     allow_credentials=False,
-    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_methods=["*"],
     allow_headers=["*"],
 )
 

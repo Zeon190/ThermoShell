@@ -11,7 +11,7 @@ import hashlib
 from typing import Dict, Any, List, Optional
 import httpx
 
-CACHE_DIR = os.path.join(os.path.dirname(__file__), ".weather_cache")
+CACHE_DIR = os.path.join("/tmp", ".weather_cache")
 os.makedirs(CACHE_DIR, exist_ok=True)
 
 HOTSPOTS = [

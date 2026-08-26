@@ -33,11 +33,7 @@ app = FastAPI(
 # Enable CORS for frontend integration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "https://thermoshell-6i51.vercel.app",
-        "https://thermoshell-6i51-git-main-ace-3a40.vercel.app",
-        "https://thermoshell-6i5l-2vc1ulcre-ace-3a40.vercel.app"
-    ],
+    allow_origins=["*"],
     allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
